@@ -42,7 +42,7 @@ public class WebSocketChatServer {
     public void onMessage(Session session, String jsonStr) {
         Message message = JSON.parseObject(jsonStr, Message.class);
         user = message.getUsername();
-        sendMessageToAll(Message.jsonStr(Message.SPEAK, user, message.getMsg(), onlineSessions.size()));
+        sendMessageToAll(Message.jsonStr(Message.CHAT, user, message.getMsg(), onlineSessions.size()));
     }
 
     /**
@@ -51,7 +51,7 @@ public class WebSocketChatServer {
     @OnClose
     public void onClose(Session session) {
         onlineSessions.remove(session.getId());
-        sendMessageToAll(Message.jsonStr(Message.QUIT, user, "quits the chat", onlineSessions.size()));
+        sendMessageToAll(Message.jsonStr(Message.LEAVE, user, "quits the chat", onlineSessions.size()));
     }
 
     /**

@@ -2,17 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0f38dc74-4d6a-4270-be2d-fe2d7febfc80" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/edu/udacity/java/nano/WebSocketChatApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/udacity/java/nano/WebSocketChatApplication.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/edu/udacity/java/nano/chat/Message.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/udacity/java/nano/chat/Message.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/edu/udacity/java/nano/chat/WebSocketChatServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/udacity/java/nano/chat/WebSocketChatServer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/edu/udacity/java/nano/chat/WebSocketConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/udacity/java/nano/chat/WebSocketConfig.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/templates/chat.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/chat.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/edu/udacity/java/nano/WebSocketChatApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/edu/udacity/java/nano/WebSocketChatApplication.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/edu/udacity/java/nano/chat/Message.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/edu/udacity/java/nano/chat/Message.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/edu/udacity/java/nano/chat/WebSocketChatServer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/edu/udacity/java/nano/chat/WebSocketChatServer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/edu/udacity/java/nano/chat/WebSocketConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/edu/udacity/java/nano/chat/WebSocketConfig.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/templates/chat.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/chat.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
