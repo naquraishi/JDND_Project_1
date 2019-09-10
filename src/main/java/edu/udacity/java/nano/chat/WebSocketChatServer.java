@@ -1,13 +1,12 @@
 package edu.udacity.java.nano.chat;
 
+import com.alibaba.fastjson.JSON;
 import org.springframework.stereotype.Component;
 import javax.websocket.*;
-import javax.websocket.server.PathParam;
 import javax.websocket.server.ServerEndpoint;
 import java.io.IOException;
 import java.util.Map;
 import java.util.concurrent.ConcurrentHashMap;
-import static java.lang.String.format;
 
 /**
  * WebSocket Server
@@ -24,6 +23,7 @@ public class WebSocketChatServer {
     /**
      * All chat sessions.
      */
+    private String user;
     private static Map<String, Session> onlineSessions = new ConcurrentHashMap<>();
 
 
@@ -31,18 +31,18 @@ public class WebSocketChatServer {
      * Open connection, 1) add session, 2) add user.
      */
     @OnOpen
-    public void onOpen(Session session, @PathParam("username") String username) {
-        //TODO: add on open connection.
-        onlineSessions.put(username, session);
+    public void onOpen(Session session) {
+        onlineSessions.put(session.getId(), session);
     }
 
     /**
      * Send message, 1) get username and session, 2) send message to all.
      */
     @OnMessage
-    public void onMessage(Session session, String message) {
-        //TODO: add send message.
-        sendMessageToAll(message);
+    public void onMessage(Session session, String jsonStr) {
+        Message message = JSON.parseObject(jsonStr, Message.class);
+        user = message.getUsername();
+        sendMessageToAll(Message.jsonStr(Message.SPEAK, user, message.getMsg(), onlineSessions.size()));
     }
 
     /**
@@ -50,12 +50,8 @@ public class WebSocketChatServer {
      */
     @OnClose
     public void onClose(Session session) {
-        //TODO: add close connection.
-        System.out.println(format("%s left the chat room.", session.getId()));
         onlineSessions.remove(session.getId());
-        Message message = new Message();
-        message.setMsg("Disconnected");
-        sendMessageToAll(message.getMsg());
+        sendMessageToAll(Message.jsonStr(Message.QUIT, user, "quits the chat", onlineSessions.size()));
     }
 
     /**

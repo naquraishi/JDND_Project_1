@@ -10,37 +10,36 @@ import java.awt.*;
 public class Message {
     // TODO: add message model.
 
-    private String msg;
+    public static final String ENTER = "ENTER";
+    public static final String SPEAK = "SPEAK";
+    public static final String QUIT = "QUIT";
+
     private String username;
+    private String msg;
     private int onlineCount;
 
-
-    public Message() {
-
+    public static String jsonStr(String type, String username, String msg, int onlineTotal) {
+        return JSON.toJSONString(new Message(type, username, msg, onlineTotal));
     }
 
-
-    public String getMsg() {
-        return msg;
-    }
-
-    public void setMsg(String msg) {
+    public Message(String type, String username, String msg, int onlineCount) {
+        this.username = username;
         this.msg = msg;
+        this.onlineCount = onlineCount;
     }
+
 
     public String getUsername() {
         return username;
     }
 
-    public void setUsername(String username) {
-        this.username = username;
+    public String getMsg() {
+        return msg;
     }
 
     public int getOnlineCount() {
         return onlineCount;
     }
 
-    public void setOnlineCount(int onlineCount) {
-        this.onlineCount = onlineCount;
+
     }
-}
