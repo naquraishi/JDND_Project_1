@@ -1,0 +1,33 @@
+-------------------------------------------------------------------------------
+Test set: edu.udacity.java.nano.chattests.AllTests
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 0, Errors: 3, Skipped: 0, Time elapsed: 18.068 s <<< FAILURE! - in edu.udacity.java.nano.chattests.AllTests
+quit(edu.udacity.java.nano.chattests.AllTests)  Time elapsed: 7.106 s  <<< ERROR!
+org.openqa.selenium.NoSuchElementException: 
+Element By.id: username (first) (Lazy Element) is not present
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'DESKTOP-OA4IAGH', ip: '192.168.42.95', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_144'
+Driver info: driver.version: unknown
+	at edu.udacity.java.nano.chattests.AllTests.doLogin(AllTests.java:25)
+	at edu.udacity.java.nano.chattests.AllTests.quit(AllTests.java:39)
+
+doLogin(edu.udacity.java.nano.chattests.AllTests)  Time elapsed: 5.383 s  <<< ERROR!
+org.openqa.selenium.NoSuchElementException: 
+Element By.id: username (first) (Lazy Element) is not present
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'DESKTOP-OA4IAGH', ip: '192.168.42.95', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_144'
+Driver info: driver.version: unknown
+	at edu.udacity.java.nano.chattests.AllTests.doLogin(AllTests.java:25)
+
+newChat(edu.udacity.java.nano.chattests.AllTests)  Time elapsed: 5.377 s  <<< ERROR!
+org.openqa.selenium.NoSuchElementException: 
+Element By.id: username (first) (Lazy Element) is not present
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'DESKTOP-OA4IAGH', ip: '192.168.42.95', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_144'
+Driver info: driver.version: unknown
+	at edu.udacity.java.nano.chattests.AllTests.doLogin(AllTests.java:25)
+	at edu.udacity.java.nano.chattests.AllTests.newChat(AllTests.java:32)
+

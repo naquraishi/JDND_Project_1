@@ -2,12 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0f38dc74-4d6a-4270-be2d-fe2d7febfc80" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/chromedriver" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/chromedriver.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/edu/udacity/java/nano/chatpages/ChatPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/edu/udacity/java/nano/chatpages/LoginPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/edu/udacity/java/nano/chattests/AllTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/edu/udacity/java/nano/utils/FluentLeniumTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/edu/udacity/java/nano/utils/MyProperties.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/edu/udacity/java/nano/chat/Message.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/udacity/java/nano/chat/Message.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/edu/udacity/java/nano/chat/WebSocketChatServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/udacity/java/nano/chat/WebSocketChatServer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/chat.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/chat.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/chatroom-starter.kotlin_module" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/edu/udacity/java/nano/chat/Message.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/edu/udacity/java/nano/chat/Message.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/edu/udacity/java/nano/chat/WebSocketChatServer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/edu/udacity/java/nano/chat/WebSocketChatServer.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/templates/chat.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/chat.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -26,10 +33,31 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="jdkForImporter" value="1.8" />
+        <option name="vmOptionsForImporter" value="-Xmx768m" />
+      </MavenImportingSettings>
+    </option>
+  </component>
   <component name="ProjectId" id="1QDfReph8SrjvYrOYcNSHo4PCLZ" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources" />
+    <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.importing" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="edu.udacity.java.nano.chatpages" />
+      <recent name="edu.udacity.java.nano.chattests" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Nafeez Quraishi\IdeaProjects\chatroom-starter\src\main\resources" />
+      <recent name="C:\Users\Nafeez Quraishi\IdeaProjects\chatroom-starter\src\test\java\edu\udacity\java\nano\utils" />
+      <recent name="C:\Users\Nafeez Quraishi\IdeaProjects\chatroom-starter\src\test\java" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -42,6 +70,45 @@
         </RuleState>
       </list>
     </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="AllTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="chatroom-starter" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="edu.udacity.java.nano.chattests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="edu.udacity.java.nano.chattests" />
+      <option name="MAIN_CLASS_NAME" value="edu.udacity.java.nano.chattests.AllTests" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AllTests.loginTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="chatroom-starter" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="edu.udacity.java.nano.chattests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="edu.udacity.java.nano.chattests" />
+      <option name="MAIN_CLASS_NAME" value="edu.udacity.java.nano.chattests.AllTests" />
+      <option name="METHOD_NAME" value="loginTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.AllTests" />
+        <item itemvalue="JUnit.AllTests.loginTest" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -61,7 +128,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>

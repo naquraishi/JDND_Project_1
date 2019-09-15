@@ -1,0 +1,5 @@
+edu\udacity\java\nano\utils\MyProperties.class
+edu\udacity\java\nano\chatpages\LoginPage.class
+edu\udacity\java\nano\chatpages\ChatPage.class
+edu\udacity\java\nano\chattests\AllTests.class
+edu\udacity\java\nano\utils\FluentLeniumTest.class

@@ -14,6 +14,7 @@ public class Message {
     public static final String CHAT = "CHAT";
     public static final String LEAVE = "LEAVE";
 
+    private String type;
     private String username;
     private String msg;
     private int onlineCount;
@@ -23,9 +24,15 @@ public class Message {
     }
 
     public Message(String type, String username, String msg, int onlineCount) {
+        this.type = type;
         this.username = username;
         this.msg = msg;
         this.onlineCount = onlineCount;
+    }
+
+
+    public String getType() {
+        return type;
     }
 
 
