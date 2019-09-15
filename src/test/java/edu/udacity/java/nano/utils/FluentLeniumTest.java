@@ -4,10 +4,6 @@ import org.apache.commons.exec.OS;
 import org.fluentlenium.adapter.junit.FluentTest;
 import org.junit.BeforeClass;
 
-import java.io.File;
-import java.util.Objects;
-
-
 public class FluentLeniumTest extends FluentTest {
 
     private static MyProperties myProperties = new MyProperties();

@@ -2,20 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0f38dc74-4d6a-4270-be2d-fe2d7febfc80" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/chromedriver" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/chromedriver.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/edu/udacity/java/nano/chatpages/ChatPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/edu/udacity/java/nano/chatpages/LoginPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/edu/udacity/java/nano/chattests/AllTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/edu/udacity/java/nano/utils/FluentLeniumTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/edu/udacity/java/nano/utils/MyProperties.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/edu/udacity/java/nano/chat/Message.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/udacity/java/nano/chat/Message.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/chatroom-starter.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/edu/udacity/java/nano/chat/Message.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/edu/udacity/java/nano/chat/Message.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/chat.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/chat.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/edu/udacity/java/nano/utils/FluentLeniumTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/edu/udacity/java/nano/utils/FluentLeniumTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-edu.udacity.java.nano.chattests.AllTests.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-edu.udacity.java.nano.chattests.AllTests.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/edu.udacity.java.nano.chattests.AllTests.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/edu.udacity.java.nano.chattests.AllTests.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/edu/udacity/java/nano/utils/FluentLeniumTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/edu/udacity/java/nano/utils/FluentLeniumTest.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
